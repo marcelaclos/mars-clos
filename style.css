@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #44c59e;
+    --primary-color: #ca4a8a;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -7,17 +7,27 @@
 body {
     margin-top: 100px;
     margin-bottom: 30px;
+}
+
+.body-index {
+    background-image: url("images/mount.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-about {
     background-image: url("images/5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
-    /* background-color: rgb(210, 233, 225); */
 }
 
 h1,
 h2,
 h3 {
     margin: 0;
+    color: rgb(4, 5, 5);
 
 }
 
@@ -134,7 +144,6 @@ p {
 
     h3 {
         text-align: center;
-
     }
 
     p {
@@ -146,7 +155,6 @@ p {
         text-align: center;
         margin: 0 20px;
     }
-
 
     .img-phone {
         display: block;
